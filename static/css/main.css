@@ -2,13 +2,14 @@
 body {
   background-image: url('../image/netflix.jpg');
   background-size: cover;
-  background-repeat: none;
-  height: 100vh;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100vw;
 }
 
 .back-opacity{
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-color: rgba(0, 0, 0, 0.537);
   z-index: 1;
 }
@@ -24,6 +25,6 @@ body {
 }
 
 .font-size {
-  font-size: 55px;
+  font-size: 40px;
   letter-spacing: -2px;
 }
