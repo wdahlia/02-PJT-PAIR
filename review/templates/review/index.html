@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+
+{% block content %}
+
+{% for i in review %}
+
+<p>{{ i.pk }}
+  <a href="{% url 'review:detail' i.pk %}">{{ i.title }}</a>{{ i.movie_name }}
+</p>
+
+
+{% endfor %}
+
+{% endblock %}
