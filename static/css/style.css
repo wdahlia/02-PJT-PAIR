@@ -1,10 +1,6 @@
 
 /* 메인 네브 로고 이미지 */
 .img-size {
-  width: 2rem;
-  height: 2rem;
-}
-
-.background {
-  background-image: url('../image/cinemaparadise.jpg');
+  width: 8rem;
+  height: 4rem;
 }
